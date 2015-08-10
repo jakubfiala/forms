@@ -36,8 +36,14 @@ header {
     z-index: 2;
 }
 
-header:hover {
+header:hover, a:hover {
     text-shadow: 0em 0em 0.4em white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    transition: text-shadow 0.5s ease-in-out;
 }
 
 .pic {
